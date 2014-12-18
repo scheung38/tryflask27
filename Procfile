@@ -1,0 +1,1 @@
+web: gunicorn tryflask27.wsgi --log-file -
