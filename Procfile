@@ -1,1 +1,1 @@
-web: gunicorn tryflask27.wsgi --log-file -
+web: gunicorn app.route:app
