@@ -1,4 +1,8 @@
 # Created by .gitignore support plugin (hsz.mobi)
+
+.DS_Store
+db.sqlite3
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
