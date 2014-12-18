@@ -1,9 +1,9 @@
 from flask import Flask
 import os
-app = Flask(__name__)
+APP = Flask(__name__)
 
 
-@app.route('/')
+@APP.route('/')
 def hello_world():
     return 'Hello World!'
 
@@ -11,4 +11,4 @@ def hello_world():
 if __name__ == '__main__':
     # app.run()
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    APP.run(host='0.0.0.0', port=port)
