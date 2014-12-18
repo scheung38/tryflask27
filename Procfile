@@ -1,1 +1,1 @@
-web: gunicorn -w 4 tryflask27:app
+web: python app.py
